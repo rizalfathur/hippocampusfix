@@ -1,0 +1,228 @@
+
+
+#app{
+    background-color: white;
+}
+
+#utama{
+    background-color: #0C4B74;
+    color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.532);
+}
+
+#ujian{
+    height: 280px;
+    background-color: #0C4B74;
+    color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.532);
+}
+
+#hasil_ujian{
+    height: 280px;
+    background-color: white;
+    color: #0C4B74;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.532);
+}
+
+.btn-start:hover
+{
+    text-decoration: none;
+}
+
+.btn-more:hover
+{
+    text-decoration: none;
+}
+
+#nav-soal
+{
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0C4B74;
+}
+
+#nav-soal a
+{
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0C4B74;
+    height: 0;
+}
+
+table {   
+counter-reset: rowNumber-1;
+}
+table tr {
+ counter-increment: rowNumber;
+}
+table tr td:first-child::before {   
+content: counter(rowNumber);   
+min-width: 1em;   
+margin-right: 0.5em;
+}
+
+#nav-soal:hover
+{
+    cursor: pointer;
+}
+
+#book_icons{
+    color: white;
+    font-size: 140px;
+}
+
+#book_iconHU{
+    color: #0C4B74;
+    font-size: 140px;
+}
+
+#text_HU{
+    color: #0C4B74; 
+    font-family:'Lato', sans-serif; 
+    font-size:15px; 
+    line-height:26px; 
+    margin:5px; 
+}
+
+#book_icon{
+    color: #0C4B74;
+    font-size: 146px;
+    /* text-align: center; */
+}
+
+#card_content{
+    color: #0C4B74;
+    transition: 0.5s;
+}
+
+#card_content:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+p { 
+    color: white; 
+    font-family: 'Lato', sans-serif; 
+    font-size: 15px; 
+    line-height: 26px; 
+    margin: 5px; 
+}
+
+.download{
+    background-color: #6699ff; 
+    margin-top: 5px;
+    padding:5px; 
+    color: white; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.download:hover{
+    background-color: chartreuse; 
+    padding:8px; 
+    color: white; 
+    text-decoration: none;
+}
+
+#play_btn{
+    text-align: center;
+    font-size: 15rem;
+}
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #0C4B74; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    margin-top: 1rem;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #efefef;
+    display: block;
+  }
+
+  #nav_icon {
+    margin-top: 1rem;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #efefef;
+    display: block;
+  }
+
+  img{
+    margin-top: 0;
+    width: 200px;
+    height: 55px;
+}
+  
+  /* When you mouse over the navigation links, change their color */
+  #sidenav a:hover {
+    color: #0C4B74;
+    background-color: #f1f1f1;
+  }
+
+  #sidenav:hover{
+    color: #0C4B74;
+    background-color: #efefef;
+  }
+
+  #nav_icon:hover{
+    color: #0C4B74;
+    background-color: #efefef;
+  }
+
+  #nav-mobile{
+    display: none;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .sidenav{
+        display: none;
+    }
+
+    #nav-mobile{
+        display: block;
+    }
+
+
+
+    ul li {
+        margin-bottom: 10px;
+        text-decoration: none;
+        
+    }
+
+    #nav-mobile {
+        width: 100px;
+    }
+
+    #nav-mobile a{
+        padding: 5px;
+        padding-left: 0px;
+        padding-right: 5px;
+        color: #0C4B74;
+        
+    }
+
+  }
+
+
+
+
+
+
